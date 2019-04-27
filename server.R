@@ -21,11 +21,7 @@ library(data.table)
 
 res <- 72
 
-con <- dbConnect(RPostgres::Postgres(), dbname = "twitter_malta",
-                 host = "46.101.159.150", user = "gbakes",
-                 password = "GhawdexMLT478")
-
-
+source("con.R")
 
 tweeters_sql <- paste(readLines("sql/tweeters.sql"), collapse = "\n")
 hash_sql <- paste(readLines("sql/hash.sql"), collapse = "\n")
