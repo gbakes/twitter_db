@@ -2,4 +2,4 @@
 
 Now with some formatting!
 
-RedmineUP link
+RedmineUP repo initialised
