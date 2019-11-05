@@ -2,4 +2,4 @@
 
 Now with some formatting!
 
-RedmineUP repo initialised
+RedmineUP repo initialised and ready
